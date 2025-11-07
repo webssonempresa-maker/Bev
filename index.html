@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acelere Seu Negócio com I.A. — Consultoria Gratuita</title>
+    <meta name="description" content="Implementação ágil de I.A. para reduzir horas de trabalho, otimizar processos e aumentar a produtividade. Solicite uma consultoria estratégica gratuita." />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <meta property="og:title" content="Acelere Seu Negócio com I.A. — Consultoria Gratuita" />
+    <meta property="og:description" content="Implementação ágil de I.A. para reduzir horas de trabalho, otimizar processos e aumentar a produtividade. Solicite uma consultoria estratégica gratuita." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#2b006e" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "[Nome da Sua Empresa]",
+      "url": "https://example.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-11-0000-0000",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": ["Portuguese"]
+      }
+    }
+    </script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="logo" href="#" aria-label="[Nome da Sua Empresa] — Voltar ao início">
+            <!-- Simple SVG logo -->
+            <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <defs>
+                    <linearGradient id="g" x1="0" x2="1">
+                        <stop offset="0" stop-color="#6f00ff"/>
+                        <stop offset="1" stop-color="#2b006e"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="12" cy="12" r="10" fill="url(#g)"/>
+                <path d="M7 12h10" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="brand">AceleraIA</span>
+        </a>
+
+        <nav class="nav">
+            <a href="#features">Onde Aplicamos</a>
+            <a href="#cases">Resultados</a>
+            <a href="#contact" class="nav-cta">Solicite Consultoria</a>
+        </nav>
+
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+            ☰
+        </button>
+    </div>
+</header>
+
+<main>
+    <section class="hero" id="home" role="region" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1 id="hero-title">⏱️ Transforme Semanas de Trabalho em Horas</h1>
+                <p class="subtitle">Soluções de I.A. sob medida que eliminam gargalos operacionais e entregam eficiência imediata — diagnóstico estratégico gratuito.</p>
+                <ul class="hero-list">
+                    <li>Diagnóstico rápido — Plano de ação em 48h</li>
+                    <li>Implementação ágil — Resultados reais em semanas</li>
+                    <li>ROI mensurável através da economia de tempo</li>
+                </ul>
+
+                <div class="hero-actions">
+                    <a class="cta-button" href="#contact">Solicitar consultoria gratuita</a>
+                    <a class="ghost-button" href="#features">Ver aplicações</a>
+                </div>
+            </div>
+
+            <aside class="form-box" id="contact" aria-labelledby="form-title">
+                <h2 id="form-title">Solicite sua Consultoria Estratégica</h2>
+                <p class="muted">Sessão gratuita de 30 minutos — diagnóstico prático e roadmap de implementação.</p>
+                <form id="contactForm" action="#" method="POST" novalidate>
+                    <label class="sr-only" for="nome">Nome Completo</label>
+                    <input id="nome" name="nome" type="text" placeholder="Nome completo" required autocomplete="name" />
+
+                    <label class="sr-only" for="email">Email Corporativo</label>
+                    <input id="email" name="email" type="email" placeholder="Email corporativo" required autocomplete="email" />
+
+                    <label class="sr-only" for="empresa">Empresa</label>
+                    <input id="empresa" name="empresa" type="text" placeholder="Empresa" required />
+
+                    <label class="sr-only" for="telefone">Telefone</label>
+                    <input id="telefone" name="telefone" type="tel" placeholder="Telefone (WhatsApp)" required autocomplete="tel" />
+
+                    <!-- Honeypot anti-spam field (visually hidden) -->
+                    <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" />
+
+                    <label class="consent">
+                        <input type="checkbox" id="consent" name="consent" required />
+                        Concordo com a Política de Privacidade e autorizo contato.
+                    </label>
+
+                    <button type="submit" class="cta-button">ACELERAR MINHA EMPRESA (CONSULTORIA GRÁTIS)</button>
+
+                    <p class="privacy-note">Não compartilhamos seus dados. Você pode solicitar exclusão a qualquer momento.</p>
+
+                    <div id="formMessage" class="form-message" role="status" aria-live="polite" hidden></div>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="container">
+            <h2>Redução de Tempo Garantida: Onde Aplicamos a I.A.</h2>
+            <div class="feature-grid">
+                <article class="feature-item" aria-labelledby="f1">
+                    <h3 id="f1">Automação Inteligente de Processos (RPA)</h3>
+                    <p>Reduza o tempo de processamento de documentos e relatórios em até <strong>90%</strong> com fluxos automatizados que se integram aos seus sistemas existentes.</p>
+                </article>
+
+                <article class="feature-item" aria-labelledby="f2">
+                    <h3 id="f2">Análise Preditiva</h3>
+                    <p>Previsões acionáveis e modelos que transformam dados em decisões estratégicas em <strong>minutos</strong>, não semanas.</p>
+                </article>
+
+                <article class="feature-item" aria-labelledby="f3">
+                    <h3 id="f3">Atendimento Imediato (Chatbots)</h3>
+                    <p>Respostas 24/7 e roteamento inteligente que reduzem filas e aumentam a satisfação do cliente.</p>
+                </article>
+
+                <article class="feature-item" aria-labelledby="f4">
+                    <h3 id="f4">Geração de Conteúdo e Código</h3>
+                    <p>Criação rápida de rascunhos, e-mails, relatórios e trechos de código para acelerar entregas internas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="cases" class="section cases">
+        <div class="container">
+            <h2>Resultados Reais</h2>
+
+            <div class="testimonial-grid">
+                <figure class="testimonial-card">
+                    <blockquote>"Implementamos a automação de relatórios e economizamos mais de <strong>120 horas por mês</strong>. Nosso foco agora está em crescimento."</blockquote>
+                    <figcaption>— Carlos A., Diretor de Operações, Indústria X</figcaption>
+                </figure>
+
+                <figure class="testimonial-card">
+                    <blockquote>"O tempo de análise de risco caiu de dias para <strong>1 hora</strong>. Ganhamos vantagem competitiva."</blockquote>
+                    <figcaption>— Mariana S., Gerente de TI, Setor Financeiro</figcaption>
+                </figure>
+            </div>
+
+            <div class="how-it-works">
+                <h3>Como funciona?</h3>
+                <ol>
+                    <li>Diagnóstico rápido e priorização de ganhos.</li>
+                    <li>Prova de conceito em pequena escala.</li>
+                    <li>Escala com integração e treinamento operacional.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="section final-cta">
+        <div class="container">
+            <h2>Pronto para transformar horas em resultados?</h2>
+            <p>Agende sua sessão estratégica gratuita — sem compromisso. Identificamos onde a I.A. entrega valor imediato.</p>
+            <a class="cta-button large-cta" href="#contact">QUERO ACELERAR AGORA</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; 2025 [Nome da Sua Empresa]. Todos os direitos reservados. | <a href="#" aria-label="Política de Privacidade">Política de Privacidade</a></p>
+        <p class="small-muted">Endereço fictício • CNPJ fictício</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
